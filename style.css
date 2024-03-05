@@ -1,0 +1,105 @@
+.profile_card {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_box {
+    /* border: 2px solid blue; */
+    width: 30%;
+    height: 600px;
+    box-shadow: 10px 10px 5px lightgray;
+    /* border-radius: 30px; */
+}
+
+.image_box {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+
+    /* border-radius: 30px; */
+}
+
+.image {
+    border: 5px solid white;
+    background-image: url(images/IMG_20230725_194052_153.jpg);
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    border-radius: 80%;
+    border-top: 50%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+
+
+
+}
+
+.name_area p {
+    /* border: 2px solid black; */
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.work_area {
+    /* border: 2px solid yellow; */
+    text-align: center;
+    /* font-weight: 500; */
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.socialMedia_area {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    /* align-items: center; */
+    /* padding: 0 20px; */
+
+}
+
+.socialMedia_area i {
+    margin-right: 20px;
+
+}
+
+.subscribeMessage {
+    display: flex;
+    justify-content: center;
+}
+
+.same {
+    border: 2px solid yellowgreen;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px 10px;
+    width: 22%;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 8px;
+
+
+}
+
+.content p {
+    margin-right: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
